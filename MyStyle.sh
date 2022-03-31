@@ -1,26 +1,26 @@
 #!/bin/sh
 # code by glitch official
-# my style
+# mystyle
 
-# tampilan
+# mystyle
 tam1="===================================="
-tam2="{   WE ARE FAMILY ILLUSION 404     }"
+tam2="{   WE ARE BIG FAMILY ILLUSION     }"
 
 # login termux
-toilet -f big -F gay LOGIN ROOT
-echo "Masukan Pasword" | lolcat
+toilet -f big -F gay LOGIN
+echo "Pasword" | lolcat
 read pass
 
-# data tampilan
+# data mystyle
 if [ $pass = family illusion ]
 then
     echo "masukan title"
     read title
     clear
     figlet $title | lolcat
-    echo $tam1 | lolcat # tampilan 1
-    echo $tam2 | lolcat # tampilan 2
-    echo $tam1 | lolcat # tampilan 1
+    echo $tam1 | lolcat # mystyle 1
+    echo $tam2 | lolcat # mystyle 2
+    echo $tam1 | lolcat # mystyle 1
     echo
     echo "# Scurity cyber" | lolcat
     echo "# Cyber Army" | lolcat
@@ -28,6 +28,6 @@ then
     echo $tam1 | lolcat # tampilan 1
 else
     echo "Wrong password" | lolcat
-    echo $tam1 | lolcat # tampilan 1
-    sh tampilan.sh
+    echo $tam1 | lolcat # mystyle 1
+    sh mystyle.sh
 fi 

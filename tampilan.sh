@@ -14,7 +14,7 @@ read pass
 # data tampilan
 if [ $pass = pain666 ]
 then
-    echo "masukan title"
+    echo "enter title"
     read title
     clear
     figlet $title | lolcat

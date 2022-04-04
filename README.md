@@ -6,7 +6,7 @@ pkg install ruby
 gem install lolcat
 pkg install bash
 pkg install git
-git clone https://github.com/glitchCodes47/mystyle
+git clone https://github.com/glitchCodes47/tampilan
 
 nano .bashrc
 clear
